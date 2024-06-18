@@ -1,0 +1,73 @@
+header{
+    background-color: #2D593C;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid white;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+body{
+    overflow: hidden;
+}
+
+main{
+    height: 100vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: row;
+}
+
+.containerInfos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.ftperfil{
+    height: 30px;
+    width: 30px;
+}
+.containerNav{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: 100%;
+    }
+    
+nav{
+    background-color: #2D593C;
+    width: 15vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    }
+    
+.botaoNav{
+    background-color: #2D593C;
+    border: 1px solid #fff;
+    width: 12vw;
+    height: 7vh;
+    color: #fff;
+    margin-top: 5rem;
+    cursor: pointer;    
+}
+
+.botaoNav:hover{
+    background-color: #364c3d;
+    transform: scale(1.1);
+}
+
+.logout{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 0.3rem;
+}
+.logout:hover{
+    background-color: #364c3d;
+    transform: scale(1.1);
+}

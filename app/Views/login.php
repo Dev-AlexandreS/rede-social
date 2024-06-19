@@ -6,11 +6,11 @@
     <title>WEBALE</title>
     <link rel="stylesheet" href="<?=base_url("assets/styles/default.css")?>">
     <link rel="stylesheet" href="<?=base_url("assets/styles/login.css")?>">
+    <script src="<?=base_url("assets/js/login.js")?>"></script>
 </head>
 <body>
     <main>
         <?=form_open('login_submit')?>
-        
             <h1 class="titulo-login">login</h1>
             <div class="container-input">
                 <label for="email">email</label>
@@ -18,7 +18,7 @@
             </div>
             <div class="container-input">
                 <label for="senha">senha</label>
-                <input type="text" placeholder="Digite sua senha" name="senha">
+                <input type="password" placeholder="Digite sua senha" name="senha">
             </div>
         
              <div class="container-btn">

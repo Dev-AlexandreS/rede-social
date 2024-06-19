@@ -87,4 +87,19 @@ class ModelUsuario extends Model
 
         return $valida;
     }
+
+    public function Editar($id, $dados){
+
+        $this->update($id, $dados);
+        
+        return true;
+
+    }
+
+    public function Deletar($id){
+        
+        $this->delete($id);
+
+        return true;
+    }
 }

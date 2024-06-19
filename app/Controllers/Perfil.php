@@ -16,7 +16,11 @@ class Perfil extends BaseController
 
         $dados = $model->BuscaId($id);
 
-        $infos = ["foto" => $dados->caminho_foto_perfil, "nome" => $dados->nome];
+        $infos = ["foto"   => $dados->caminho_foto_perfil,
+                  "nome"   => $dados->nome,
+                  "email"  => $dados->email,
+                  "senha"  => $dados->senha,
+                  "banner" => $dados->caminho_foto_fundo];
 
         return view("perfil", $infos);
     }

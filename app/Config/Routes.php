@@ -20,3 +20,7 @@ $routes->get('/logout', 'Main::closeSession');
 $routes->post('/login_submit', 'Login::login_submit');
 
 $routes->post('/cadastrar', 'Cadastro::cadastrar');
+
+$routes->post('/edicao', 'Editar::index');
+
+$routes->post('/delete', 'Delete::index');

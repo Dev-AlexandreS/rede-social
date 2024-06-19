@@ -44,16 +44,19 @@ nav{
     width: 15vw;
     height: 100%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    /* gap: 2rem; */
+    align-items: center;
+    flex-direction: column;
     }
     
 .botaoNav{
     background-color: #2D593C;
     border: 1px solid #fff;
     width: 12vw;
+    margin-top: 4rem;
     height: 7vh;
     color: #fff;
-    margin-top: 5rem;
     cursor: pointer;    
 }
 

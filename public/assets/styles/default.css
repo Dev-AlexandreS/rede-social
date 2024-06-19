@@ -11,3 +11,6 @@ body{
     height: 100vh;
     background-color: #4C9F70;
     }
+input{
+    padding: 1rem;
+}

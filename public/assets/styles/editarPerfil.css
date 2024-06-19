@@ -1,0 +1,99 @@
+.editarPerfil{
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(100, 100, 100);
+    opacity: 70%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.containerModal{
+    display: none;
+    background-color: #2D593C;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 6;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 100%;
+    height: fit-content;
+    padding: 1rem 0;  
+    gap: 1rem;
+    border-radius: 1rem;
+    width: 400px;
+}
+h2{
+    text-transform: uppercase;
+    color: #ffff;
+    width: 100%;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 1rem;
+}
+
+input{
+    height: 2.5rem;
+    border-radius: 0.8rem;
+    border: 1.5px solid #000;
+    }
+
+label{
+    color: #ffff;
+}
+.container-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-sub{
+    background-color: #4C9F70;
+    height: 2rem;
+    width: 200px;
+    color: #ffff;
+    border-radius: 0.8rem;
+    border: 1.5px solid #ffff;
+    cursor: pointer;
+}
+.btn-sub:hover{
+    background-color: #518362;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.container-fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btn-upload{
+    background-color: #ffff;
+    border: 1.5px solid #000;
+    border-radius: 0.8rem;
+    color: #000;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 100%;
+    padding: 0.4rem;
+}

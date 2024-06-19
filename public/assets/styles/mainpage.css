@@ -1,0 +1,61 @@
+main{
+    display: flex;
+    flex-direction: row;
+}
+.containerNav{
+    position: fixed;
+    
+}
+
+.content{
+    display: flex;
+    margin-left: 40%;
+    margin-top: 3rem;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    gap: 1rem;
+    
+}
+
+.postagem{
+    background-color: #2D593C;
+    display: flex;
+    flex-direction: column;
+    
+    height: 500px;
+    width: 500px;
+    border-radius: 1rem;
+}
+.header-post{
+    background-color: #2D593C;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem 1rem 0 0;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    gap: 2rem;
+    padding: 0 1rem;
+    color: #ffff;
+}
+.containerFtPerfil{
+    background-color: blueviolet;
+    height: 40px;
+    width: 40px;
+    border-radius: 0.7rem;
+}
+.ftPost{
+    border-radius: 0.7rem;
+    height: 100%;
+    width: 100%;
+}
+.content-post{
+    background-color: rgb(255, 255, 255);
+    height: 70%;
+    width: 100%;
+}
+.titulo-post{
+    color: #ffff;
+    margin: 1rem 1.5rem;
+}

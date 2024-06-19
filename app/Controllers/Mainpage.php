@@ -18,7 +18,7 @@ class Mainpage extends BaseController
 
         $dados = $model->BuscaId($id);
 
-        $infos = ["foto" => $dados->caminho_foto_perfil, "nome" => $dados->nome];
+        $infos = ["foto" => $dados->caminho_foto_perfil, "nome" => $dados->nome, "banner" => $dados->caminho_foto_fundo];
 
         return view("/mainpage", $infos);
     }

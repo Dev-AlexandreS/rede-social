@@ -17,9 +17,10 @@ class Login extends BaseController
         if ($login == true){
             // iniciação de sessão com base no id do usuario
             session()->set("id", $login->id);
+            
             return redirect()->to("/mainpage");
         }else{
-            echo "quebrou";
+            echo "Usuario não encontrado";
         }
 
     }

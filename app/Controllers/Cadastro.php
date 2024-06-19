@@ -22,10 +22,10 @@ class Cadastro extends BaseController
         $nomeFoto = $ftPerfil->getName();
         $cadastro = $modelUser->cadastrar($nome, $email, $senha, $nomeFoto);
         // metodo move com ROOTPATH para designar onde vão ficar os uploads
-        $ftPerfil->move(ROOTPATH . "public/assets/img");
+        $ftPerfil->move(ROOTPATH . "public/assets/img/");
         if($cadastro){
             // iniciação de sessão com base no id do usuario vindo da query de cadastro
-            session()->set(["id" => $cadastro]);
+            session()->set(["id" => $cadastro, "fotoPerfil" => $nomeFoto]);
             return redirect()->to("/mainpage");
         
         }else{

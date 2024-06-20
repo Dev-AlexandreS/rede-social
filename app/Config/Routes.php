@@ -11,8 +11,6 @@ $routes->get('/cadastro', 'Main::cadastro');
 
 $routes->get('/mainpage', 'Mainpage::index');
 
-$routes->get('/main', 'Main::mainpage');
-
 $routes->get('/meuPerfil', 'Perfil::index');
 
 $routes->get('/logout', 'Main::closeSession');
@@ -24,3 +22,5 @@ $routes->post('/cadastrar', 'Cadastro::cadastrar');
 $routes->post('/edicao', 'Editar::index');
 
 $routes->post('/delete', 'Delete::index');
+
+$routes->post('/postar', 'Postar::index');

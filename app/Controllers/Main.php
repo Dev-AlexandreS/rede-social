@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Models\Posts;
 use CodeIgniter\HTTP\ResponseInterface;
 
 
@@ -16,10 +17,6 @@ class Main extends BaseController
     public function cadastro()
     {
         return view('cadastro');
-    }
-    public function mainpage()
-    {
-        return view('mainpage');
     }
 
     // rota de finalizar sessão

@@ -10,8 +10,8 @@ main{
 .content{
     display: flex;
     margin-left: 40%;
-    margin-top: 3rem;
-    flex-direction: column;
+    margin-top: 1.5rem;
+    flex-direction: column-reverse;
     width: 100%;
     height: fit-content;
     gap: 1rem;
@@ -55,7 +55,123 @@ main{
     height: 70%;
     width: 100%;
 }
+.content-post img{
+    height: 100%;
+    width: 100%;    
+}
+
 .titulo-post{
     color: #ffff;
     margin: 1rem 1.5rem;
 }
+.backG{
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(100, 100, 100);
+    opacity: 70%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+}
+.addPost{
+    display: none;
+    z-index: 5;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    background-color: #2D593C;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    border-radius: 1rem;
+    border: 2.3px solid white;
+    box-shadow: 4px 4px #192f20;
+    color: #ffff;
+    gap: 1rem;
+}
+
+input[type="text"]{
+    display: flex;
+    flex-direction: column;
+     width: 80%;
+}
+.containerInput{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+label{
+    width: 80%;
+    text-align: start;
+}
+
+.content-Post{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#nomePost{
+     background-color: #274a33;
+     border: none;
+     height: 2rem;
+     padding: 1rem;
+     color: #ffff;
+     border-bottom: 1.4px solid white;
+}
+
+.tituloModal{
+    text-align: center;
+    width: 100%;
+}
+
+#previewImg{
+    margin-top: 1rem;
+    margin-bottom: -0.5rem;
+    height: 180px;
+    width: 40%;
+}
+
+.btn-sub{
+    background-color: #4C9F70;
+    height: 2rem;
+    width: 200px;
+    color: #ffff;
+    left: 0;
+    right: 0;
+    margin: 0.5rem auto;
+    border-radius: 0.8rem;
+    border: 1.5px solid #ffff;
+    cursor: pointer;
+}
+.btn-sub:hover{
+    background-color: #518362;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.btn-upload{
+    background-color: #ffff;
+    border: 1.5px solid #000;
+    border-radius: 0.8rem;
+    color: #000;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 100%;
+    padding: 0.4rem;
+    width: 40%;
+}
+
